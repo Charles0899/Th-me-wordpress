@@ -1,0 +1,36 @@
+/*
+Theme name: One
+Author: Charles
+Description: Mon premier thème
+Tags: HTML CSS JS
+
+*/
+body {
+    background-color: #ffffff;
+    font-family: Helvetica; color: #000000;
+}
+
+/*Navbar*/
+a {color: #DD903F; font-size: 20px;}
+a:hover{color: #ff0000;}
+a:link
+{
+ text-decoration:none;
+}
+li {
+display: inline-block;
+margin-left: 20vh;
+margin-top: -5rem;
+position: relative;
+bottom: 1px;
+padding-left: 2vh;
+}
+
+.bar2{position: relative; bottom: 4rem; z-index: 2;}
+.paille{position: relative; bottom: 11rem; z-index: 1; width: 100%; height: 100vh;}
+.logo{position: relative; z-index: 3;}
+.rectangle{background-color: #000000; height: 5rem; position: relative; top: 20rem;}
+.foot{position: relative; top: 2rem;}
+.bouge{position: relative; top: 10rem;}
+.site__heading{position: relative; top: 5rem;}
+.titre1{position: relative; bottom: 4rem;}
